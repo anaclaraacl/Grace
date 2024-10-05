@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Forum&family=Inter:wght@400;500&family=Lato&display=swap');
+/* font-family: 'Be Vietnam Pro', sans-serif;
+font-family: 'Forum', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Lato', sans-serif; */
+*
+{margin: 0; 
+padding: 0; 
+box-sizing: border-box;} 
+
+.tables 
+{width: 100%;
+text-align: center;}
+
+#vers
+{height: 6vh;
+background: #F2EDF3;
+font-size: 14px;
+font-family: 'Inter', sans-serif;}
+
+#header
+{height: 9vh;
+background: #7CA692;}
+
+#header td
+{width: 33%;}
+
+.title
+{font-family: 'Forum', cursive;
+text-transform: uppercase;
+font-size: 38px;}
+
+.icons
+{margin: 0 2px;}
+
+#table_icons
+{padding: 20px 190px 0 190px;}
+
+#table_icons td
+{width: 25%;
+font-family: 'Inter', sans-serif;
+text-transform: uppercase;
+font-size: 2vh;
+background: #F2EDF3;
+padding: 25px 0;}
+
+#table_icons td:not(:last-child)
+{border-right: 1px solid #000;}
+
+#caminhao 
+{border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;}
+
+#caixa
+{border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;}
+
+.titulo
+{text-transform: uppercase;
+font-family: 'Be Vietnam Pro', sans-serif;
+text-align: center;
+font-size: 28px;
+font-weight: normal;
+margin: 2vh 0;}
+
+#lanc_bibles
+{background: #7CA692;
+padding-bottom: 2vh;}
+
+#lanc_bibles td
+{font-family: 'Inter', sans-serif;
+font-size: 20px;}
+
+#lanc_bibles td p
+{font-weight: 500;}
+
+#bibles_grace
+{background: #F2EDF3;
+padding-bottom: 2vh;}
+
+#bibles_grace td
+{font-family: 'Inter', sans-serif;
+font-size: 20px;}
+
+#bibles_grace td p
+{font-weight: 500;}
+
+#rodape
+{background: #7CA692;
+height: 35vh;}
+
+#rodape_grace
+{height: 25%;}
+
+#rodape_colunas 
+{height: 75%;}
+
+#rodape_colunas td h4 
+{font-family: 'Lato', sans-serif;
+font-weight: normal;}
+
+#rodape_colunas td p
+{font-family: 'Lato', sans-serif;
+font-weight: normal;
+padding: 2vh;
+text-align: start;}
+
+#rodape_colunas td h4#redes_sociais
+{margin-bottom: 5vh;}
+
+.flex
+{display: flex;
+align-items: center;
+justify-content: center;}
+
+#rodape_colunas td.rodpe img
+{height: 20px;
+width: 20px;}
+
+#link
+{color: #000;
+text-decoration: none;}
+
+#link:hover
+{text-decoration: underline;}
